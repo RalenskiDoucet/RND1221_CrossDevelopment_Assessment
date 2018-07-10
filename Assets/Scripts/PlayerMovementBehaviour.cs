@@ -16,7 +16,7 @@ public class PlayerMovementBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-#if !UNITY_EDITOR//In Unity input.
+#if UNITY_EDITOR//In Unity input.
         Rigidbody rb3d = GetComponent<Rigidbody>();
         if (Input.GetButton("Forward"))
             rb3d.AddForce(Vector3.forward * Speed * Time.deltaTime);
