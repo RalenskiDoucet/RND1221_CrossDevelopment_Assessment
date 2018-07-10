@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu]
-public class BoozkaRatGun:Item  {
-    public override void Use()
+public class Gun:ProjectileActor  {
+    void Use()
     {
         Debug.Log("gun1");
         for (int i = 0; i < 100; i++)
         {
-            var rat = Instantiate(ratProjectile);
-            var mrat = rat.GetComponent<Rigidbody>();
+            var gun = Instantiate(Projectile);
+            var Round = gun.GetComponent<Rigidbody>();
            
 
         }
     }
 
-    public GameObject ratProjectile;
+    public GameObject Projectile;
     
     // Use this for initialization
 	void Start () {

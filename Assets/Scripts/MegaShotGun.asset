@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26613a6490c5aff41a6e3e0f52c088cf, type: 3}
   m_Name: MegaShotGun
   m_EditorClassIdentifier: 
-  Image: {fileID: 0}
+  Image: {fileID: 21300000, guid: ea035908a7e40d748a0a601ae7529a27, type: 3}

@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26613a6490c5aff41a6e3e0f52c088cf, type: 3}
   m_Name: MultiShotGun
   m_EditorClassIdentifier: 
-  Image: {fileID: 0}
+  Image: {fileID: 21300000, guid: 3019dde5d7a41204fb7d93f2e7836445, type: 3}
